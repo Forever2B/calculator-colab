@@ -13,7 +13,7 @@ void divisao_conta() {
 	scanf("%f", &total);
 	printf("\nQuantas pessoas comeram?: ");
 	scanf("%d", &pessoas);
-	printf("\nTem gorjeta?: ");
+	printf("\nQual a %% da gorjeta?: ");
 	scanf("%d", &gorjeta);
 	
 	totalSemGorjeta = total;
@@ -26,5 +26,4 @@ void divisao_conta() {
 	printf("\nGorjeta: %d%%", gorjeta );
 	printf("\nTotal com corjeta: %.2f", total);
 	printf("\nTotal por pessoa: %.2f", contaFinal);
-
 }
